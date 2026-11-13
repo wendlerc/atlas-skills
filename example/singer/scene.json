@@ -1,0 +1,359 @@
+{
+  "prompt": "Hand-painted anime, sunset in a small lived-in Seoul apartment. Two distinct people: seven-year-old Korean girl in mustard yellow sweater with a short black bob and plaid trousers singing into an oval wooden hairbrush with a blue charm, standing next to the low table. Her mother listens seated across the table, smiling with chin on her hands. Low wooden tea table, cup, upright dark piano, piano bench, windows, honey light. Consistent human anatomy and furniture.",
+  "guides": [
+    {
+      "camera": {
+        "extrinsics": {
+          "position": [
+            0.63,
+            1.14,
+            2.05
+          ],
+          "quaternion": [
+            -0.07795474933702193,
+            0.11285424603952293,
+            0.008881821785715895,
+            0.9905090052333798
+          ],
+          "coordinateSystem": "rub"
+        },
+        "intrinsics": {
+          "width": 1280,
+          "height": 720,
+          "fx": 520,
+          "fy": 520,
+          "cx": 640.0,
+          "cy": 360.0
+        }
+      },
+      "depth": "guides/00-depth.exr",
+      "image": "guides/00-image.png",
+      "mask": "guides/00-mask.png",
+      "depth_mask": "guides/00-depth_mask.png"
+    },
+    {
+      "camera": {
+        "extrinsics": {
+          "position": [
+            0.289206881469602,
+            1.0352849531521922,
+            2.093154978859892
+          ],
+          "quaternion": [
+            -0.07158372569677166,
+            0.052608279044767246,
+            0.017658404686000183,
+            0.9958897127369387
+          ],
+          "coordinateSystem": "rub"
+        },
+        "intrinsics": {
+          "width": 1280,
+          "height": 720,
+          "fx": 520,
+          "fy": 520,
+          "cx": 640.0,
+          "cy": 360.0
+        }
+      },
+      "depth": "guides/01-depth.exr",
+      "image": "guides/01-image.png",
+      "mask": "guides/01-mask.png",
+      "depth_mask": "guides/01-depth_mask.png"
+    },
+    {
+      "camera": {
+        "extrinsics": {
+          "position": [
+            -0.2682980342552743,
+            0.9021676719713403,
+            2.1281233958784975
+          ],
+          "quaternion": [
+            -0.06168423803947748,
+            -0.06156169156688071,
+            0.0330140243345312,
+            0.9956481743598751
+          ],
+          "coordinateSystem": "rub"
+        },
+        "intrinsics": {
+          "width": 1280,
+          "height": 720,
+          "fx": 520,
+          "fy": 520,
+          "cx": 640.0,
+          "cy": 360.0
+        }
+      },
+      "depth": "guides/02-depth.exr",
+      "image": "guides/02-image.png",
+      "mask": "guides/02-mask.png",
+      "depth_mask": "guides/02-depth_mask.png"
+    },
+    {
+      "camera": {
+        "extrinsics": {
+          "position": [
+            -0.8125337179467407,
+            0.8263522543837708,
+            1.946499464254566
+          ],
+          "quaternion": [
+            -0.04240085377451601,
+            -0.21100570057785195,
+            0.05530166351994482,
+            0.9749976861176487
+          ],
+          "coordinateSystem": "rub"
+        },
+        "intrinsics": {
+          "width": 1280,
+          "height": 720,
+          "fx": 520,
+          "fy": 520,
+          "cx": 640.0,
+          "cy": 360.0
+        }
+      },
+      "depth": "guides/03-depth.exr",
+      "image": "guides/03-image.png",
+      "mask": "guides/03-mask.png",
+      "depth_mask": "guides/03-depth_mask.png"
+    },
+    {
+      "camera": {
+        "extrinsics": {
+          "position": [
+            -1.27,
+            0.79,
+            1.62
+          ],
+          "quaternion": [
+            -0.03684855269159962,
+            -0.36472047887460757,
+            0.06980851471052665,
+            0.9277650175167856
+          ],
+          "coordinateSystem": "rub"
+        },
+        "intrinsics": {
+          "width": 1280,
+          "height": 720,
+          "fx": 520,
+          "fy": 520,
+          "cx": 640.0,
+          "cy": 360.0
+        }
+      },
+      "depth": "guides/04-depth.exr",
+      "image": "guides/04-image.png",
+      "mask": "guides/04-mask.png",
+      "depth_mask": "guides/04-depth_mask.png"
+    },
+    {
+      "camera": {
+        "extrinsics": {
+          "position": [
+            -1.5849319727891156,
+            0.8638095238095238,
+            1.1580608974358975
+          ],
+          "quaternion": [
+            -0.04496383664169042,
+            -0.47833483879729655,
+            0.051290063099750254,
+            0.8755246226203165
+          ],
+          "coordinateSystem": "rub"
+        },
+        "intrinsics": {
+          "width": 1280,
+          "height": 720,
+          "fx": 520,
+          "fy": 520,
+          "cx": 640.0,
+          "cy": 360.0
+        }
+      },
+      "depth": "guides/05-depth.exr",
+      "image": "guides/05-image.png",
+      "mask": "guides/05-mask.png",
+      "depth_mask": "guides/05-depth_mask.png"
+    },
+    {
+      "camera": {
+        "extrinsics": {
+          "position": [
+            -1.74,
+            0.9900000000000001,
+            0.6199999999999994
+          ],
+          "quaternion": [
+            -0.04678748648286975,
+            -0.5861008295904898,
+            0.019904953364646857,
+            0.8086411697987598
+          ],
+          "coordinateSystem": "rub"
+        },
+        "intrinsics": {
+          "width": 1280,
+          "height": 720,
+          "fx": 520,
+          "fy": 520,
+          "cx": 640.0,
+          "cy": 360.0
+        }
+      },
+      "depth": "guides/06-depth.exr",
+      "image": "guides/06-image.png",
+      "mask": "guides/06-mask.png",
+      "depth_mask": "guides/06-depth_mask.png"
+    },
+    {
+      "camera": {
+        "extrinsics": {
+          "position": [
+            -1.6567887931034484,
+            1.1129146141215107,
+            0.13190767973856188
+          ],
+          "quaternion": [
+            -0.03501616093079118,
+            -0.7098006190360898,
+            -0.021957169027315447,
+            0.7031890445804444
+          ],
+          "coordinateSystem": "rub"
+        },
+        "intrinsics": {
+          "width": 1280,
+          "height": 720,
+          "fx": 520,
+          "fy": 520,
+          "cx": 640.0,
+          "cy": 360.0
+        }
+      },
+      "depth": "guides/07-depth.exr",
+      "image": "guides/07-image.png",
+      "mask": "guides/07-mask.png",
+      "depth_mask": "guides/07-depth_mask.png"
+    },
+    {
+      "camera": {
+        "extrinsics": {
+          "position": [
+            -1.47,
+            1.21,
+            -0.3
+          ],
+          "quaternion": [
+            -0.016198212719288164,
+            -0.8134063848568205,
+            -0.052721799612229205,
+            0.5790751961744754
+          ],
+          "coordinateSystem": "rub"
+        },
+        "intrinsics": {
+          "width": 1280,
+          "height": 720,
+          "fx": 520,
+          "fy": 520,
+          "cx": 640.0,
+          "cy": 360.0
+        }
+      },
+      "depth": "guides/08-depth.exr",
+      "image": "guides/08-image.png",
+      "mask": "guides/08-mask.png",
+      "depth_mask": "guides/08-depth_mask.png"
+    },
+    {
+      "camera": {
+        "extrinsics": {
+          "position": [
+            -0.9732112068965517,
+            1.2582758620689654,
+            -0.6966993464052287
+          ],
+          "quaternion": [
+            -0.004831487600394214,
+            -0.8937171334315281,
+            -0.0627501775613939,
+            0.4441945039670267
+          ],
+          "coordinateSystem": "rub"
+        },
+        "intrinsics": {
+          "width": 1280,
+          "height": 720,
+          "fx": 520,
+          "fy": 520,
+          "cx": 640.0,
+          "cy": 360.0
+        }
+      },
+      "depth": "guides/09-depth.exr",
+      "image": "guides/09-image.png",
+      "mask": "guides/09-mask.png",
+      "depth_mask": "guides/09-depth_mask.png"
+    },
+    {
+      "camera": {
+        "extrinsics": {
+          "position": [
+            -0.58,
+            1.28,
+            -0.91
+          ],
+          "quaternion": [
+            0.0019433671852971423,
+            -0.9289496080732013,
+            -0.06635715866411873,
+            0.36420540424141595
+          ],
+          "coordinateSystem": "rub"
+        },
+        "intrinsics": {
+          "width": 1280,
+          "height": 720,
+          "fx": 520,
+          "fy": 520,
+          "cx": 640.0,
+          "cy": 360.0
+        }
+      },
+      "depth": "guides/10-depth.exr",
+      "image": "guides/10-image.png",
+      "mask": "guides/10-mask.png",
+      "depth_mask": "guides/10-depth_mask.png"
+    }
+  ],
+  "reference_camera": {
+    "extrinsics": {
+      "position": [
+        0.63,
+        1.14,
+        2.05
+      ],
+      "quaternion": [
+        -0.07795474933702193,
+        0.11285424603952293,
+        0.008881821785715895,
+        0.9905090052333798
+      ],
+      "coordinateSystem": "rub"
+    },
+    "intrinsics": {
+      "width": 720,
+      "height": 1280,
+      "fx": 700,
+      "fy": 700,
+      "cx": 360.0,
+      "cy": 640.0
+    }
+  }
+}
