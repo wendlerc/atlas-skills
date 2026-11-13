@@ -1,9 +1,28 @@
 # Atlas and Chisel camera workflows
 
-Two independent Codex skills for rendering camera moves with World Labs. Copy either directory from [skills](skills) into your Codex skills directory.
+Two independent Codex skills for rendering camera moves with World Labs.
 
 - [Atlas flythrough](skills/atlas-flythrough/SKILL.md) starts with a still image, builds support views, and renders a dense camera path.
 - [Chisel flythrough](skills/chisel-flythrough/SKILL.md) starts with a 3D blockout, uses its depth to guide sparse views, then renders the camera move with Atlas.
+
+## Quickstart
+
+Paste this into Codex from an account with GitHub access to this repository:
+
+> Use $skill-installer to install both skills from `wendlerc/atlas-skills`: `skills/atlas-flythrough` and `skills/chisel-flythrough`.
+
+For rendering, install the World Labs CLI with `npm install -g @worldlabsai/cli` (Node.js 22+) and sign in with `worldlabs auth login`. The workflows also use Python 3, NumPy, FFmpeg and jq. On your next Codex turn, try either prompt.
+
+**Atlas · start with a photo**  
+Attach a photo of a room with a table in the foreground, then ask:
+
+> Use $atlas-flythrough on this photo. Make a five-second shot that starts in the doorway, glides past the left edge of the table, and turns toward the window. Inspect the support views for parallax before rendering the MP4.
+
+**Chisel · start with a blockout**
+
+> Use $chisel-flythrough to build a lighthouse stairwell. Fly up the spiral stairs, pass behind the central column, and reveal the sea through the lantern-room windows. Render six seconds and show the blockout beside the finished shot.
+
+**Prompt enhancement.** Both helpers explicitly send `enhancePrompt: false` for guide or support generation and the final flight. This carries the authored scene description through both passes. To try enhancement on a new scene, set `enhancePrompt` to `true` in the first generation request, then reuse the returned `promptUsed` with enhancement off for the flight.
 
 ## Example films
 
