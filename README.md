@@ -26,6 +26,8 @@ Attach a photo of a room with a table in the foreground, then ask:
 
 ## Example films
 
+Open [The Yolk Line](example/yolk-line/The-Yolk-Line.chisel) in Chisel to edit the croissant tunnel, curved railway and breakfast plate. The [six-second preview](example/yolk-line/blockout-ride.mp4) follows the [original 144 camera poses](example/yolk-line/flight-path.json).
+
 [The Crumb Run](example/the-crumb-run.mp4) is a 15-second ant-eye film. The [original recipe](example/ant-recipe/README.md) includes its walking motion. The [singer example](example/singer) shows the Chisel inputs and one generated view.
 
 | Shot | Source image | Editable path | All 120 camera poses | Support images and depth |
