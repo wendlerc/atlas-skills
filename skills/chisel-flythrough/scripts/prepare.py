@@ -18,9 +18,11 @@ def main():
     parser.add_argument("--reference-id")
     parser.add_argument("--operation", type=Path)
     parser.add_argument("--path", type=Path)
+    parser.add_argument("--no-enhance-prompt", dest="enhance_prompt", action="store_false",
+                        help="Use the scene prompt verbatim for this generation request")
     args = parser.parse_args()
     scene = json.loads(args.scene.read_text())
-    common = dict(prompt=scene["prompt"], enhancePrompt=False)
+    common = dict(prompt=scene["prompt"], enhancePrompt=args.enhance_prompt)
     if args.stage == "guides":
         targets = []
         for guide in scene["guides"]:

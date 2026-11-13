@@ -9,6 +9,8 @@ Choose what the viewer should discover by the end of the shot. Inspect the still
 
 Use an authenticated World Labs CLI, Python 3 with NumPy, and FFmpeg. Work in a fresh shot directory. Set PREP to the absolute path of scripts/prepare.py in this skill. Supply a JPEG and its intended output dimensions.
 
+Prompt enhancement is enabled by default for support views and the final flight. Pass `--no-enhance-prompt` to a generation command in `prepare.py` to use the scene prompt verbatim for that pass.
+
 ~~~sh
 python3 "$PREP" pose scene.jpg --resolution 1280 720 > pose-request.json
 worldlabs tasks run images2PosedRGBD --request pose-request.json --wait --json > pose.json

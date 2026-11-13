@@ -13,6 +13,8 @@ Export each guide's camera and forward-axis depth as a single-channel floating-p
 
 Use Python 3, jq, FFmpeg, and an authenticated worldlabs CLI. Set PREP to this skill's scripts/prepare.py. Write scene.json with a prompt and a guides array. Each guide contains camera and depth (a relative EXR path), optionally depth_mask and the paired image and mask PNG paths. Add a reference_camera only if the style image depicts that pose. Write path.json as an ordered array of dense Atlas cameras. The repo's example/singer directory supplies both manifests and all guide inputs.
 
+Prompt enhancement is enabled by default for guides and the final flight. Pass `--no-enhance-prompt` to a generation command in `prepare.py` to use the scene prompt verbatim for that pass.
+
 ~~~sh
 worldlabs assets upload reference.jpg --json > reference.json
 python3 "$PREP" guides scene.json --reference-id "$(jq -er '.id' reference.json)" > guide-request.json

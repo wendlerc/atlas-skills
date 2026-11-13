@@ -22,7 +22,7 @@ Attach a photo of a room with a table in the foreground, then ask:
 
 > Use $chisel-flythrough to build a lighthouse stairwell. Fly up the spiral stairs, pass behind the central column, and reveal the sea through the lantern-room windows. Render six seconds and show the blockout beside the finished shot.
 
-**Prompt enhancement.** Both helpers explicitly send `enhancePrompt: false` for guide or support generation and the final flight. This carries the authored scene description through both passes. To try enhancement on a new scene, set `enhancePrompt` to `true` in the first generation request, then reuse the returned `promptUsed` with enhancement off for the flight.
+**Prompt enhancement.** Both skills send `enhancePrompt: true` for support views or Chisel guides and for the final flight. To use your exact wording for a pass, add `--no-enhance-prompt` to its `prepare.py` command.
 
 ## Example films
 

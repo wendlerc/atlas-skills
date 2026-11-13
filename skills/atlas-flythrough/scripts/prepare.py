@@ -82,6 +82,8 @@ def main():
     parser.add_argument('--frames', type=int, default=120)
     parser.add_argument('--supports', type=int, default=6)
     parser.add_argument('--footfalls', action='store_true', help='Add a tiny walking bob')
+    parser.add_argument("--no-enhance-prompt", dest="enhance_prompt", action="store_false",
+                        help="Use the scene prompt verbatim for this generation request")
     args = parser.parse_args()
     if min(args.frames, args.supports, *args.resolution) < 1:
         parser.error('Counts and dimensions must be positive')
@@ -106,7 +108,7 @@ def main():
         if not support:
             frames.extend(context(args.angles))
         request = dict(contextFrames=frames, targetCameras=cameras, returnDepth=support,
-                       enhancePrompt=False, prompt=shot['prompt'])
+                       enhancePrompt=args.enhance_prompt, prompt=shot['prompt'])
     print(json.dumps(request))
 
 
